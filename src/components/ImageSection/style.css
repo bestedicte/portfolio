@@ -1,0 +1,46 @@
+.image-section {
+  display: grid;
+  grid-template-columns: repeat(17, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.frame-0 {
+  grid-area: 1 / 1 / 2 / 7;
+  max-width: 28rem;
+}
+
+.frame-1 {
+  grid-area: 1 / 9 / 2 / 15;
+  max-width: 28rem;
+}
+
+.frame-2 {
+  grid-area: 2 / 4 / 3 / 9;
+  max-width: 22rem;
+}
+
+.frame-3 {
+  grid-area: 2 / 11 / 3 / 18;
+  max-width: 28rem;
+}
+
+.frame-4 {
+  grid-area: 3 / 3 / 4 / 9;
+  max-width: 28rem;
+}
+
+.frame-5 {
+  grid-area: 3 / 10 / 4 / 18;
+  max-width: 54rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .image-section {
+    display: flex;
+    flex-direction: column;
+  }
+}

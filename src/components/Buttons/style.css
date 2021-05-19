@@ -1,0 +1,38 @@
+.buttons {
+	max-width: 46rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+.button {
+	width: 16rem;
+	height: 16rem;
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	cursor: pointer;
+	flex-shrink: 0;
+	background-color: white;
+	color: black;
+}
+
+.buttons .button:only-child {
+	margin: auto;
+}
+
+@media screen and (max-width: 1280px) {
+	.button {
+		width: 8rem;
+		height: 8rem;
+		font-size: 1.35rem;
+	}
+	.buttons {
+		max-width: 19rem;
+	}
+}
