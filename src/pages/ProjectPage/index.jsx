@@ -14,12 +14,16 @@ const ProjectPage = ({ project, projectIndex }) => (
     </Link>
     <TextArea
       title={project.title}
+      netlifyLink={project.netlifyLink}
+      githubLink={project.githubLink}
       body={project.textarea1}
     />
     <ProjectImageSection
       image={project.image}
     />
-    <TextArea />
+    <TextArea
+      body={project.textarea2}
+    />
     <ProjectImageSection
       image={project.image2}
     />
