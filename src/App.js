@@ -19,7 +19,7 @@ function App() {
         {
           data.map((project, index) => (
             <Route path={project.slug}>
-              <ProjectPage project={project} projectIndex={index} />
+              <ProjectPage project={project} projectIndex={index} target="_blank" />
             </Route>
           ))
         }
