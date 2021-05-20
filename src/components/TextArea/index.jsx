@@ -1,7 +1,7 @@
 import './style.css';
 
 const TextArea = ({
-  title, body, year, netlifyLink, githubLink,
+  title, body, year, links, netlifyLink, githubLink,
 }) => (
   <div className={`text-area ${year && 'about-text-area'}`}>
     <div className="title-and-body">
@@ -11,7 +11,7 @@ const TextArea = ({
         {title}
       </h3>
       )}
-      {netlifyLink
+      {links
       && (
         <div className="site-links">
           <a href={netlifyLink}> Netlify </a>
