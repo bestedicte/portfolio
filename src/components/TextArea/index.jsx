@@ -11,16 +11,13 @@ const TextArea = ({
         {title}
       </h3>
       )}
-      <div className="site-links">
-        {netlifyLink
+      {netlifyLink
       && (
-        <a href={netlifyLink}> Netlify </a>
+        <div className="site-links">
+          <a href={netlifyLink}> Netlify </a>
+          <a href={githubLink}> Github Repo </a>
+        </div>
       )}
-        {githubLink
-      && (
-        <a href={githubLink}> Github Repo </a>
-      )}
-      </div>
       {body
       && (
       <p className="text-area-body">
