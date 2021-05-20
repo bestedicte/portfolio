@@ -4,6 +4,7 @@
 
 .header .text-area {
   justify-content: center;
+  max-width: unset;
 }
 
 .header .text-area-title {
