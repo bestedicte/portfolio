@@ -1,0 +1,12 @@
+.header {
+  height: 25%;
+}
+
+.header .text-area {
+  justify-content: center;
+}
+
+.header .text-area-title {
+  max-width: 832px;
+  margin: 2rem auto;
+}

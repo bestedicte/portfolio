@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 11rem;
+  margin-bottom: 6.25rem;
+}
+
+.footer .link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer .link {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.footer .link svg {
+  transform: rotate(-45deg);
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 1280px) {
+.footer {
+  margin-top: 1rem;
+}
+}

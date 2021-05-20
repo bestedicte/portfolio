@@ -1,0 +1,80 @@
+.project-page .text-area {
+  margin: auto;
+  align-items: center;
+  display: block;
+}
+
+.project-page .text-area-title {
+  text-align: center;
+}
+
+.project-page .text-area-body {
+  text-transform: unset;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 28rem;
+  margin-bottom: 2rem;
+}
+
+.site-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 190px;
+  margin: auto;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.project-page img {
+  max-width: 735px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 2rem;
+  display: block;
+  border-radius: 1.25rem;
+}
+
+.project-page .buttons {
+  margin-top: 13rem;
+}
+
+.project-page svg path {
+  fill: #fff;
+  opacity: 80%;
+}
+
+.project-page svg {
+  margin: 1rem;
+}
+
+.project-page .footer svg {
+  margin: initial;
+}
+
+@media screen and (max-width: 1280px) {
+  .project-page {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .text-area {
+    word-break: normal;
+  }
+
+  .project-page .text-area-title {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .project-page .text-area-body {
+    margin-bottom: 1rem;
+  }
+
+  .project-page .buttons {
+    margin-top: 3rem;
+  }
+}
