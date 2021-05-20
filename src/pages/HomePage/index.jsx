@@ -11,8 +11,8 @@ const HomePage = () => (
     <Header />
     <ImageSection />
     <TextArea
-      title="Van Gogh painted several landscapes with flowers, roses, lilacs, and sunflowers."
-      body="Some reflect his interests in the language of colour, and also in Japanese ukiyo-e. There are two series of dying sunflowers. The first was painted in Paris in 1887 and shows flowers lying on the ground."
+      title="Aspiring, self-taught front-end web developer"
+      body="24 years old, based in Oslo, Norway"
     />
     <AboutMe />
     <Footer />
