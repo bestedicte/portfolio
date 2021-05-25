@@ -1,7 +1,8 @@
+/* eslint-disable no-mixed-operators */
 import './style.css';
 
 const TextArea = ({
-  title, body, year, links, netlifyLink, githubLink,
+  title, body, year, netlifyLink, githubLink,
 }) => (
   <div className={`text-area ${year && 'about-text-area'}`}>
     <div className="title-and-body">
@@ -11,13 +12,20 @@ const TextArea = ({
         {title}
       </h3>
       )}
-      {links
-      && (
-        <div className="site-links">
-          <a href={netlifyLink}> Netlify </a>
-          <a href={githubLink}> Github Repo </a>
-        </div>
-      )}
+      {githubLink
+          && (
+          <div className="site-links">
+
+            {netlifyLink
+          && (
+            <a href={netlifyLink}> Netlify </a>
+          )}
+            {githubLink && (
+            <a href={githubLink}> Github Repo </a>
+            )}
+
+          </div>
+          )}
       {body
       && (
       <p className="text-area-body">
